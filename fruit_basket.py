@@ -1,0 +1,21 @@
+basket1 = {"apple","banana","mango","apple","grape"}
+basket2 = {"mango","kiwi","banana","kiwi"}
+print("basket 1:",basket1)
+print("basket 2:", basket2)
+basket1.add("orange")
+print("basket 1 after adding orange:",basket1)
+common_fruits = basket1.intersection(basket2)
+print("fruits in both basket:", common_fruits)
+import array as arr
+fruits_count = arr.array('i',[3,5,2,4,])
+print("fruits counts after adding items:", fruits_count)
+count_of_4 = fruits_count.count(4)
+print("number of items 4 appear:", count_of_4)
+fruits_count.reverse()
+print("")
+print("====== class fruit basket organizer ======")
+print("basket 1:", basket1)
+print("basket 2:", basket2)
+print("shared fruits:", common_fruits)
+print("fruits:",fruits_count)
+print("=============================================")
